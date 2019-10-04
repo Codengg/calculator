@@ -26,13 +26,12 @@ int main()
                 break;
         case 4: ans = num1/num2;
                 printf("%f",ans);
+                
                 break;
-        case 5: ans = (int)num1%(int)num2;
+        case 5: ans = pow(num1,num2);
                 printf("%f",ans);
                 break;
-        case 6: ans = pow(num1,num2);
-                printf("%f",ans);
-                break;
+        
         default: printf("Wrong choice!");
      }
      printf("\nPress Y to continue and N to exit.");
